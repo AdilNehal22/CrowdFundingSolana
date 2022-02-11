@@ -1,0 +1,27 @@
+for my program three entry points...
+
+In the code, I have mentioned there is only one entry point in the Solana program. But we want three as we discussed in the "What do we want in our program?" section. Let's fix this issue. Have you noticed there is no limit to the instruction_data array? We are going to take advantage of that fact. We use the first element of the array to know what entry point we want to call. Notice we can have 256 entry points like this in a single program (u8 has a value of 0..255). Realistically we never do that if in case we want that many entry points for a project. It is better to deploy more programs.
+
+
+what is the meaning of #derive(Debug)]
+-> that we can derive some traits for our struct.
+
+A trait in Rust is a group of methods that are defined for a particular type.
+
+We need to derive both BorshSerialize and BorshDeserialize. BorshSerialize is used to convert the struct into an array of u8, which is the data we can store in Solana accounts. It is also the data we have in instruction_data so we can deserialize that to a struct with the help of BorshDeserialize.
+
+We can use the next_account_info function to get an account from the array. This function returns a result enum. We can use ? Operator on the result enum to get the value. If in case of an error the ? Operator will chain the error, and our program will return the same error which was returned by next_account_info.
+
+By deriving the trait BorshDeserialize in our CampaignDetails struct we have added a method try_from_slice which takes in the parameter array of u8 and creates an object of CampaignDetails with it. It gives us an enum of type results. We will use the expect method on result enums to and pass in the string which we can see in case of error.
+
+By deriving the trait BorshDeserialize in our CampaignDetails struct we have added a method try_from_slice which takes in the parameter array of u8 and creates an object of CampaignDetails with it. It gives us an enum of type results. We will use the expect method on result enums to and pass in the string which we can see in case of error.
+
+Solana accounts can have data, but size has to be specified when it is created. We need to have a minimum balance to make it rent exempt. 
+
+    An account is considered rent-exempt if it holds at least 2 years worth of rent. This is checked every time an account's balance is reduced, and transactions that would reduce the balance to below the minimum amount will fail.
+
+    Program executable accounts are required by the runtime to be rent-exempt to avoid being purged.
+
+We want to donate to a campaign, however we can't decrease the balance of an account not owned by our program in our program. This means we can't just transfer the balance as we did in the withdraw function. Solana policies state: "An account not assigned to the program cannot have its balance decrease."
+So for this, we will create a program-owned account in our front-end and then perform the SOL token transaction.
+

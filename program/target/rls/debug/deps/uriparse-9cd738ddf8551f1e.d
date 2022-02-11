@@ -1,0 +1,14 @@
+/home/adil/Desktop/crowd-funding/program/target/rls/debug/deps/uriparse-9cd738ddf8551f1e.rmeta: /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/lib.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/utility.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/authority.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/fragment.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/path.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/query.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/relative_reference.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/scheme.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/uri.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/uri_reference.rs
+
+/home/adil/Desktop/crowd-funding/program/target/rls/debug/deps/uriparse-9cd738ddf8551f1e.d: /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/lib.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/utility.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/authority.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/fragment.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/path.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/query.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/relative_reference.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/scheme.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/uri.rs /home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/uri_reference.rs
+
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/lib.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/utility.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/authority.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/fragment.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/path.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/query.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/relative_reference.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/scheme.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/uri.rs:
+/home/adil/.cargo/registry/src/github.com-1ecc6299db9ec823/uriparse-0.6.3/src/uri_reference.rs:
